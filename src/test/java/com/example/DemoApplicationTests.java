@@ -5,12 +5,14 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import static org.junit.Assert.assertTrue;
+import org.apache.log4j.Logger;
 
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class DemoApplicationTests {
 
+	private static Logger logger = Logger.getLogger(DemoApplicationTests.class);
 	@Test
 	public void contextLoads() {
 	}
